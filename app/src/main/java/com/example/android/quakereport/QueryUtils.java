@@ -103,6 +103,7 @@ public final class QueryUtils {
             }
 
         } catch (JSONException e) {
+
             // If an error is thrown when executing any of the above statements in the "try" block,
             // catch the exception here, so the app doesn't crash. Print a log message
             // with the message from the exception.
