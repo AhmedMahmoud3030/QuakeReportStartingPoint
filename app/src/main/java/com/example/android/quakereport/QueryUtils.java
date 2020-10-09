@@ -144,6 +144,11 @@ public final class QueryUtils {
         List<Earthquake> earthquakes = extractFeatureFromJson(jsonResponse);
 
         // Return the list of {@link Earthquake}s
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         return earthquakes;
     }
 
